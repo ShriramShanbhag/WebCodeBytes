@@ -1,0 +1,3 @@
+The content inside the <slot></slot> is often a part of light DOM. Not shadow DOM. So when we have such a setup,
+mutation observers should have explicit observation on the root element itself. Not just the shadowRoot of the 
+element. 

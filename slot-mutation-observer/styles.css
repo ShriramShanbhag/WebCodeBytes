@@ -1,0 +1,12 @@
+.editable-div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: text;
+    min-height: 30px;
+}
+
+.editable-div:focus {
+    outline: none;
+    border-color: #007BFF;
+}
